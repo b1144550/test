@@ -5,6 +5,7 @@ pipeline:
     commands:
       - echo "fontend test"
 
+
   backend:
     image: node:8.3.0
 #    group: testing
