@@ -3,6 +3,7 @@ pipeline:
     image: node:8.3.0
 #    group: testing
     commands:
+      - yarn install
       - echo "fontend test"
 
 
